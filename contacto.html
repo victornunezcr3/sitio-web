@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ing. Victor Ml Nuñez | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Ing. Victor Manuel Núñez</h1>
+        <h2>Sistemas Informáticos</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="record.html">Record</a></li>
+          <li><a href="contacto.html" class="selected">Contacto</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>Información general</h3>
+        <p>De mi experiencia en el sector agroindustrial, puedo transcribir muchos de los procesos a la lógica de negocios,
+          ahunado a mi formación como informático, para el desarrollo y diseño de aplicaciones y paginas web. Modelos 
+          responsivos, bajo el esquema mobile first.
+        </p>
+      </section>
+      <section id="secondary">
+        <h3>Detalles de contacto</h3>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:85546767">+506-8554-6767</a></li>
+          <li class="mail"><a href="mailto:ingvictormlnunezcr@gmail.com">ingvictormlnunezcr@gmail.com</a></li>
+          <li class="facebook"><a href="https://www.facebook.com/victormanuel.nunezlopez">victormanuel.nunezlopez</a></li>
+        </ul>
+      </section>
+      <hr>
+      <section id="terceary">
+        <form id="contactForm" method="post" action="php/contact-form.php">
+          <div>
+            <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+          </div>          
+          <div>
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>        
+          <div>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+          </div>
+          <div>
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <div>
+            <input type="submit" class="form-send" value="Enviar">
+          </div>
+        </form>
+      </section>
+      <div id="blank">
+
+      </div>
+      <footer>
+        <a href="http://twitter.com/enrique7mc_"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; 2019 Ing. Victor Ml. Nuñez</p>
+      </footer>
+    </div>
+  </body>
+</html>

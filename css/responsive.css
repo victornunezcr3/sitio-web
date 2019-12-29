@@ -1,0 +1,93 @@
+@media all and (min-width: 480px) {
+  /**************************
+  PÁGINA: CONTACTO
+  ***************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  #terceary{
+    clear: both;
+    display: block;
+    width: 50%;
+    float: left;
+  }
+  #blank{
+    clear: both;
+    display: block;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+  }
+
+  /**************************
+  PÁGINA: HOME
+  ***************************/
+
+  #gallery li {
+    /* 15% margin 85% elementos / 3 = 28.333 */
+    display: block;
+    width: 42.5%
+  }
+  #gallery li p{
+    text-align: justify;
+    font-size: 1.25em;
+  }
+
+  #gallery li:nth-child(3n) {
+    clear: left;
+  }
+
+
+  /**************************
+  PÁGINA: ACERCA DE
+  ***************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+}
+
+@media all and (min-width: 660px) {
+  /**************************
+  PÁGINA: ACERCA DE
+  ***************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #33adff;
+    margin-bottom: 60px;
+  }
+  
+}

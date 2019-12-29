@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ing. Victor Ml Nuñez | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <header>
+      <a href="record.html" id="logo">
+        <h1>Ing. Victor Manuel Núñez</h1>
+        <h2>Sistemas Informáticos</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="record.html" class="selected">Record</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+    
+          <div class="w3-container">
+                <h1 style="color: blue;">Histórico Laboral</h1>
+            <h2 style="color: darkslateblue;">Antecedentes</h2>
+            <p>Retrospectiva de experiencia laboral, <b> seleccione acordión, onclick </b></p>
+              
+            <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-blue w3-left-align" >Implementacion Software POST Cadena Walmart CentroAmerica</button>
+            <div id="Demo1" class="w3-container w3-hide">
+              <h4>2019-2020 Actual</h4>
+              <p>Implementacion de software POST en Guatemala, Costa Rica, El Salvador y Honduras; soporte, validacion de funcionalidades, capacitacion, suse linux, script linux, interface web</p>
+            </div>
+            <p></p>
+            <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-blue w3-left-align">Desarrollo aplicacion on-cloud</button>
+            <div id="Demo2" class="w3-container w3-hide">
+              <h4>2019 - Aplicacion on cloud para Mobile Research</h4>
+              <p>Desarrollo, ciclo completo, aplicacion web para registro de licencias usuario, php como BackEnd,  responsive, con base de datos MYSQL y siguiendo las mejores prácticas.</p>
+            </div>
+            <p></p>
+            <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-blue w3-left-align">Soporte Técnico como freelancer</button>
+            <div id="Demo3" class="w3-container w3-hide">
+              <h4>2016-2018 trabajos como outsourcing</h4>
+              <p>Mantenimiento de redes, soporte de IT, control de pulgas (depuracion) bugs</p>
+            </div>
+            <p></p>
+            <button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-blue w3-left-align">Desarrollo de proyectos</button>
+            <div id="Demo4" class="w3-container w3-hide">
+              <h4>2012-2016 Desarrollo de proyectos de mediana envergadura</h4>
+              <p>Licitacion, programas de regimenes especiales y gestion de permisos institucionales</p>
+            </div>
+            <p></p>
+            <button onclick="myFunction('Demo5')" class="w3-btn w3-block w3-blue w3-left-align">Aplicacion VBA para excel control de planilla RRHH</button>
+            <div id="Demo5" class="w3-container w3-hide">
+              <h4>2000-2012 Desarrollo de aplicacion excel para manejo de planilla de nomina</h4>
+              <p>Desarrollo de macro en vba para control de planilla diaria y mensual, empresa Ornamentales Rio Frio, S.A.< completamente funcional</p>
+            </div>
+            <p></p>
+            <button onclick="myFunction('Demo6')" class="w3-btn w3-block w3-blue w3-left-align">Manejo de inventarios, planillas, registros de producción, cuentas x  cobrar, cuentas x pagar y afines </button>
+            <div id="Demo6" class="w3-container w3-hide">
+              <h4>Antes de 2000 participación en procesos de negocio</h4>
+              <p>Participacion en los procesos operativos y administrativos de pequeñas y medianas empresas del sector agro-exportador</p>
+            </div>
+            <p></p>
+            
+          </div> 
+    </div>
+    <div id="blank">
+
+    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/ingvictormlnunezcr/"><img src="img/linkedin.png" alt="Linkedin Logo"
+        class="social-icon"></a>
+      <p>&copy; 2019 Ing. Victor Ml. Nuñez</p>
+    </footer>
+    <script>
+        function myFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+  </body>
+</html>
